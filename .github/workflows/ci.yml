@@ -42,7 +42,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-         images: rehmanhabib/webapp-build
+          images: rehmanhabib/webapp-build
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
