@@ -2,7 +2,7 @@ name: Node.js CI/CD with Docker
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
 
 env:
   REGISTRY: docker.io
